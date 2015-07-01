@@ -1,0 +1,82 @@
+.container{
+	display:table-cell;
+	position:absolute;
+	top:30%;
+	left:40%;
+
+}
+
+.searchbar{
+	display:table-cell;
+	position:absolute;
+	top:50%;
+	left:30%;
+
+}
+
+#logo{	
+	width:300px;
+	height:auto;
+}
+
+.nav{
+	text-align:right;
+}
+
+.footer{
+	display:inline;
+	position:absolute;
+	top:95%;
+	clear:both;
+	padding:5px;
+
+	
+}
+
+.flnav{
+	display:inline;
+	text-align: left;
+}
+
+.frnav{
+	position:relative;
+	display:inline;
+	text-align: right;
+	left:220%;
+}
+
+
+
+input{
+	height: 30px;
+	width: 40em;
+	padding:1px;
+}
+
+button {
+	position:relative;
+	font-weight:bold;
+	display:table-cell;
+	padding:3px;
+	margin:5px;
+	cursor:pointer;
+	left:30%;
+}
+
+ul {
+	font-color:gray;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+li{
+	display:inline;
+	padding:5px;
+	cursor:pointer;
+
+}
+
+li:hover{
+	text-decoration: underline;
+}
